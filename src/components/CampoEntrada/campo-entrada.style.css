@@ -1,0 +1,13 @@
+.campo-entrada {
+    
+    padding: 12px 14px;
+    border: 1px solid black;
+    background-color: #cacaca7a;
+    color: black;
+    border-radius: 6px;
+    outline: none;
+}
+
+input::placeholder {
+  color: black;
+}

@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 282px;
+    border: none;
+    gap: 15px;
+}
+
+.mensagemErro {
+    color: red;
+}
+
+.modal-login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+}
+
+.modal-conteudo-login {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.modal-conteudo-login img {
+    width: 32px;
+    height: auto;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+

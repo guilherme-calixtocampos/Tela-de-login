@@ -1,0 +1,9 @@
+.boas-vindas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boas-vindas img {
+    width: 200px;
+}
